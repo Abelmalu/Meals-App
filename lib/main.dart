@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Myapp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,6 +26,8 @@ class MyHomepage extends StatefulWidget {
 class _MyHomepageState extends State<MyHomepage> {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('meals app'),);
+    return Center(
+      child: Text('meal planner'),
+    );
   }
 }

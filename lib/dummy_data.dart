@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'models/category_screen.dart';
+import 'models/categories_model.dart';
 
 List DUMMY_CATEGORIES = [
   CategoryRecipe(
@@ -13,8 +13,13 @@ List DUMMY_CATEGORIES = [
     color: Colors.green,
   ),
   CategoryRecipe(
-    id: 'c1',
-    title: 'Italian',
+    id: 'c3',
+    title: 'Vegetabales',
+    color: Colors.blue,
+  ),
+  CategoryRecipe(
+    id: 'c4',
+    title: 'carnivore',
     color: Colors.blue,
   ),
 ];
